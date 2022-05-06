@@ -9,4 +9,10 @@ public String hello()
 {
 return "<h1> Congratulations. You have successfully deployed the sample Spring Boot Application. </h1>";
 }
+
+@RequestMapping("/trojan")
+public String trojan()
+{
+return "<h1> hello from Trojan </h1>";
+}
 }
